@@ -1,0 +1,84 @@
+.hub_container{
+    height: 50px;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(3,41,7,1) 0%, rgba(38,79,48,1) 18%, rgba(57,121,55,1) 72%, rgba(3,41,7,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 120;
+}
+.hub_container_icon_botton{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+  
+
+
+}
+
+
+.hub_container_icon_input{
+    height: 30px;
+    width: 60%;
+ 
+    background-color:transparent;
+    border: solid 1px white;
+    border-radius: 10px;
+    color: white;
+
+}
+.hub_container_icon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+   
+}
+.hub_container_menu{
+    display: flex;
+    align-items: center;
+}
+.hub_container_menu_list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    align-items: center;
+}
+.hub_container_menu_list >li{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.hub_container_tickets_button{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+  
+}
+.hub_container_tickets{
+    width: auto;
+    height: auto;
+  
+    display: flex;
+    align-items: center;    
+    border: none;
+}
