@@ -1,0 +1,44 @@
+.div_container_big_card{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    height: 100%;
+    width: 60vi;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.imagem_container{
+    width:50%;
+    margin: 5px;
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    
+}
+img{
+    justify-self: center;
+    
+    height: 100%;
+    position: relative;
+    object-fit: contain;
+}
+.noticia_titulo{
+    overflow: hidden;
+    width: 50%;
+    margin: 5px;
+    height: 300px;
+}
+h2{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: auto;
+    height: auto;
+
+}
+p{ 
+    margin-top: 5px;
+    margin-left: 10px;
+}

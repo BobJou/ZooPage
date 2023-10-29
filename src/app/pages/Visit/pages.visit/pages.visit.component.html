@@ -3,5 +3,16 @@
     <h1 class="div_container_background_title" >Come to our Zoo!</h1>
 </div>
 <div class="div_container_noticias">
+    <div class="div_big_card">
+        <app-bigcard class="big_card"></app-bigcard>
+    </div>
+    <div class="div_smallcards_container">
+        <app-smallcard *ngFor="let animal of animaisDesc" 
+        linkImagem="{{animal.linkImagem}}"
+        titulo="{{animal.titulo}}"
+        desc="{{animal.desc}}"      
+        
+        ></app-smallcard>
     
+    </div>
 </div>
